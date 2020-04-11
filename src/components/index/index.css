@@ -1,0 +1,11 @@
+.menuBox{
+    /* width: 200px; */
+    background-color: midnightblue;
+    height: 92vh;
+    float: left;
+  }
+  .menuCont{
+    height: 100%;
+    width: 100%;
+    background-color: navajowhite;
+  }
