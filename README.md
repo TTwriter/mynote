@@ -66,3 +66,39 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+一 目录介绍：
+create-react-app 是用于创建新项目的全局命令行实用程序。
+note/
+    |
+    --- /config/            (webpack配置工具)
+        |
+        --- webpack.config.js   (webpack配置文件)
+    --- /public/            (静态目录，存放 img 等资源)
+    --- /scripts            (命令配置)
+        |
+        --- index.html      (模板文件)
+        --- favicon.ico     (网站图标)
+    --- /src/   (核心代码,项目文件都在这里,webpack只处理其中的文件,您需要在其中放入任何JS和CSS文件src,否则webpack将看不到它们)
+        |
+        --- components/     (页面，抽离的公用组件)
+        --- index.js        (是JavaScript的入口文件)
+        --- css/
+        --- js/
+        --- images/
+
+        --- utils/          (工具函数)
+        --- store/          (数据存储及更新)
+
+        --- apiRequest/     (请求目录)
+
+    --- package.json
+    --- README.md
+
+二 开发：
+在开发之前您可能需要了解：
+- react [ 文档：https://react.docschina.org/docs/getting-started.html ]
+- ant [ 文档：https://ant.design/components/button-cn/ ]
+- scss [ 文档: https://www.sass.hk/docs/ ]
+<!-- - mobx [ 文档: https://cn.mobx.js.org/ ] -->
+
