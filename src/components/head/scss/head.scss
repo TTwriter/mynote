@@ -1,3 +1,11 @@
+
 .head{
     color: #fff;
+    height: 5vh !important;
+    line-height: 5vh !important;
+    // height: 50px !important;
+    // line-height: 50px;
+    .userName{
+        cursor: pointer;
+    }
 }

@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import '../public/css/public.css' //公共样式库
+import 'antd/dist/antd.css'
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
 import App from './router/router';

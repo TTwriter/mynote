@@ -1,0 +1,12 @@
+.pageBox {
+  background-color: antiquewhite;
+}
+
+.sider {
+  width: 100px;
+  float: left;
+}
+
+.content {
+  float: left;
+}
